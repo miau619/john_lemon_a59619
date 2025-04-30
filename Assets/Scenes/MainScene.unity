@@ -5598,6 +5598,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2434508295504295856, guid: bd1abdbb95888c546a1fd456ceafef32,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7889829560062142756, guid: bd1abdbb95888c546a1fd456ceafef32,
         type: 3}
       propertyPath: m_Name
@@ -5666,11 +5671,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 753581150}
     m_Modifications:
-    - target: {fileID: 987393256085809721, guid: 4f613188c5b10bd409c5b3cdfe449696,
-        type: 3}
-      propertyPath: waypoints.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 987393256085809721, guid: 4f613188c5b10bd409c5b3cdfe449696,
         type: 3}
       propertyPath: waypoints.Array.data[0]
@@ -5839,16 +5839,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1472381496}
     - target: {fileID: 4321178077338126247, guid: cd995f8364469d641b83020971d979fe,
-        type: 3}
-      propertyPath: gameEnding
-      value: 
-      objectReference: {fileID: 2029439639}
-    - target: {fileID: 6455085796910668382, guid: cd995f8364469d641b83020971d979fe,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1472381496}
-    - target: {fileID: 6455085796910668382, guid: cd995f8364469d641b83020971d979fe,
         type: 3}
       propertyPath: gameEnding
       value: 
